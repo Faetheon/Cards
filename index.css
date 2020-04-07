@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+textarea {
+  resize: none;
+}
+
+.inputs {
+  display: flex;
+}
+
+.card {
+  position: absolute;
+  border: 1px solid black;
+  width: 150;
+  height: 200;
+  overflow: hidden;
+}
+
+.card:focus {
+  border-color: green;
+}
+
+.cardText {
+  padding: 5px 11px;
+  /* user-select: none; */
+}
